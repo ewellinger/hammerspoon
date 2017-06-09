@@ -17,7 +17,7 @@ if not aclockcenter then
     local mainScreen = hs.screen.mainScreen()
     local mainRes = mainScreen:fullFrame()
     -- aclockcenter = {x=mainRes.w-200-20,y=200}
-    aclockcenter = {x=175,y=175}
+    aclockcenter = {x=145,y=175}
 end
 
 function AnalogClock:showAnalogClock()
